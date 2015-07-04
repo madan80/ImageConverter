@@ -2,9 +2,9 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ImageConverter</groupId>
   <artifactId>ImageConverter</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-  
+  <version>0.0.1-SNAPSHOT</version>
+    
   <properties>
 		<jdk.version>1.7</jdk.version>
 		<spring.version>4.1.1.RELEASE</spring.version>
@@ -149,6 +149,14 @@
 			<configuration>
 				<path>/ImageConverter</path>
 			</configuration>
+			<executions>
+	        <execution>
+	            <phase>post-clean</phase>
+	            <goals>
+	                <goal>create-timestamp</goal>
+	            </goals>
+	        </execution>
+    </executions>
 		  </plugin>
  
 		</plugins>

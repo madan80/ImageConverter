@@ -104,4 +104,8 @@ public class FileUploadController {
         }
         return message;
     }
+    @RequestMapping("/")
+    public String renderFileUploadView(){
+    	return "fileUpload";
+    }
 }
