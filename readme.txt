@@ -8,3 +8,5 @@ Follow the following steps if deployment is happening properly:
 
 
 Now try to clean and run your application on server.
+
+Please refer http://www.imagemagick.org/Usage/resize/ for image magic commands.
