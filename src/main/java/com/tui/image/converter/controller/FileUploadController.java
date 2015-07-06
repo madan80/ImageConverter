@@ -106,7 +106,7 @@ public class FileUploadController {
 				.append("-crop ").append("100x100^ ")
 				.append("-gravity center ").append(splitedName[0]).append("_xs.")
 				.append(splitedName[1]);*/
-		String[] cmdCrop = new String[]{"C:\\ImageMagick-6.9.1-Q16\\convert.exe",imageName,"-gravity center","-crop","100x100+10+10",splitedName[0]+"_xs."+splitedName[1]};
+		String[] cmdCrop = new String[]{"C:\\ImageMagick-6.9.1-Q16\\convert.exe",imageName,"-gravity", "center","-crop","100x100+10+10",splitedName[0]+"_xs."+splitedName[1]};
 
 		Runtime.getRuntime().exec(cmdCrop);
 

@@ -2,8 +2,7 @@
     <wb-module deploy-name="ImageConverter">
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
         <property name="context-root" value="ImageConverter"/>
         <property name="java-output-path" value="/ImageConverter/classes"/>
     </wb-module>
