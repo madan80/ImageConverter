@@ -69,6 +69,7 @@ public class FileUploadController {
 			return "You failed to upload " + name
 					+ " because the file was empty.";
 		}
+		System.out.println("END: FileUploadController::uploadFileHandler");
 	}
 
 	private void resizeUploadedImageSM(File serverFile) throws IOException {
