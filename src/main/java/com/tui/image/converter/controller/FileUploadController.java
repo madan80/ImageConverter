@@ -36,6 +36,7 @@ public class FileUploadController {
 	public @ResponseBody
 	String uploadFileHandler(@RequestParam("name") String name,
 			@RequestParam("file") MultipartFile file) {
+		System.out.println("START: FileUploadController::uploadFileHandler");
 
 		if (!file.isEmpty()) {
 			try {
